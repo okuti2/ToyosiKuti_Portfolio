@@ -16,11 +16,13 @@ import c from "./tech/c.svg";
 import cpp from "./tech/c++.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
+import express from "./tech/express.png";
+import figma from "./tech/figma.svg";
+import git from "./tech/git.svg";
 import github2 from "./tech/github.svg";
 import html from "./tech/html.png";
 import ionic from "./tech/ionic.svg";
+import intellij from "./tech/intellij.svg";
 import java from "./tech/java.svg";
 import javascript from "./tech/javascript.png";
 import jest from "./tech/jest.svg";
@@ -29,6 +31,7 @@ import mongodb from "./tech/mongodb.png";
 import mysql from "./tech/mysql.svg";
 import nodejs from "./tech/nodejs.svg";
 import postgresql from "./tech/postgresql.svg";
+import postman from "./tech/postman.svg";
 import powershell from "./tech/powershell.svg";
 import python from "./tech/python.svg";
 import reactjs from "./tech/reactjs.png";
@@ -40,9 +43,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import vitejs from "./tech/vitejs.svg";
 import vuejs from "./tech/vuejs.svg";
+import vscode from "./tech/vscode.svg";
+import Xcode from "./tech/Xcode.svg";
 
 import seneca from "./company/seneca.png";
 import servicetitan from "./company/servicetitan.png";
+import nomai from "./company/nomai.png";
 
 import intellicycles from "./intellicycles.png";
 import fragments from "./fragments.png";
@@ -68,6 +74,7 @@ export {
   java,
   jest,
   linux,
+  express,
   fragments,
   Library,
   mysql,
@@ -75,6 +82,7 @@ export {
   powershell,
   python,
   solidity,
+  intellij,
   swift,
   vitejs,
   vuejs,
@@ -83,6 +91,7 @@ export {
   creator,
   mobile,
   portfolio,
+  postman,
   web,
   github,
   menu,
@@ -93,8 +102,11 @@ export {
   git,
   html,
   javascript,
+  vscode,
   mongodb,
+  Xcode,
   nodejs,
+  nomai,
   reactjs,
   redux,
   tailwind,

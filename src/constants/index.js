@@ -7,12 +7,14 @@ import {
     ContactManager,
     web,
     javascript,
+    express,
     typescript,
     reactjs,
     tailwind,
     nodejs,
     mongodb,
     git,
+    intellij,
     docker,
     seneca,
     servicetitan,
@@ -22,25 +24,30 @@ import {
     threejs,
     android,
     angular,
+    figma,
     aws,
     azure,
     bootstrap,
     c,
     cpp,
     github2,
+    vscode,
     ionic,
     java,
     jest,
     linux,
     mysql,
     postgresql,
+    postman,
     powershell,
+    nomai,
     python,
     solidity,
     swift,
     vitejs,
     vuejs,
     intellicycles,
+    Xcode,
   } from "../assets";
   
   export const navLinks = [
@@ -76,125 +83,184 @@ import {
       icon: creator,
     },
   ];
-  
+
   const technologies = [
     {
-      name: "Android Studio",
-      icon: android,
+      category: "Languages",
+      techs: [
+        {
+          name: "JavaScript",
+          icon: javascript,
+        },
+        {
+          name: "TypeScript",
+          icon: typescript,
+        },
+        {
+          name: "Java",
+          icon: java,
+        },
+        {
+          name: "Python",
+          icon: python,
+        },
+        {
+          name: "C++",
+          icon: cpp,
+        },
+        {
+          name: "Solidity",
+          icon: solidity,
+        },
+        {
+          name: "Swift",
+          icon: swift,
+        },
+        {
+          name: "\u00A0\u00A0\u00A0C\u00A0\u00A0\u00A0\u00A0",
+          icon: c,
+        }
+      ]
     },
     {
-      name: "AWS",
-      icon: aws,
-    },
-    // {
-    //   name: "Bootstrap",
-    //   icon: bootstrap,
-    // },
-    {
-      name: "C",
-      icon: c,
-    },
-    {
-      name: "C++",
-      icon: cpp,
-    },
-    {
-      name: "Azure",
-      icon: azure,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name:"Angular",
-      icon: angular,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
+      category: "Frameworks",
+      techs: [
+        {
+          name: "React JS",
+          icon: reactjs,
+        },
+        {
+          name: "Angular",
+          icon: angular,
+        },
+        {
+          name: "Vue JS",
+          icon: vuejs,
+        },
+        {
+          name: "Node JS",
+          icon: nodejs,
+        },
+        {
+          name: "Express JS",
+          icon: express,
+        },
+        {
+          name: "Ionic",
+          icon: ionic,
+        },
+        {
+          name: "Vite JS",
+          icon: vitejs,
+        },
+      ]
     },
     {
-      name: "Git Hub",
-      icon: github2,
+      category: "Databases",
+      techs: [
+        {
+          name: "MongoDB",
+          icon: mongodb,
+        },
+        {
+          name: "MySQL",
+          icon: mysql,
+        },
+        {
+          name: "PostgreSQL",
+          icon: postgresql,
+        },
+      ]
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      category: "Cloud Computing",
+      techs: [
+        {
+          name: "AWS",
+          icon: aws,
+        },
+        {
+          name: "Azure",
+          icon: azure,
+        },
+        {
+          name: "Docker",
+          icon: docker,
+        },
+        {
+          name: "GitHub",
+          icon: github2,
+        },
+      ]
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      category: "Tools",
+      techs: [
+        {
+          name: "\u00A0\u00A0Git\u00A0\u00A0",
+          icon: git,
+        },
+        {
+          name: "Linux",
+          icon: linux,
+        },
+        {
+          name: "PowerShell",
+          icon: powershell,
+        },
+        {
+          name: "\u00A0\u00A0Jest\u00A0\u00A0",
+          icon: jest,
+        },
+      ]
     },
     {
-      name: "Ionic",
-      icon: ionic,
+      category: "Libraries",
+      techs: [
+        {
+          name: "Tailwind CSS",
+          icon: tailwind,
+        },
+        {
+          name: "Three JS",
+          icon: threejs,
+        },
+        {
+          name: "Bootstrap",
+          icon: bootstrap,
+        }
+      ]
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
-    {
-      name: "Java",
-      icon: java,
-    },
-    // {
-    //   name: "Linux",
-    //   icon: linux,
-    // },
-    // {
-    //   name: "MySQL",
-    //   icon: mysql,
-    // },
-    // {
-    //   name: "PostgreSQL",
-    //   icon: postgresql,
-    // },
-    // {
-    //   name: "PowerShell",
-    //   icon: powershell,
-    // },
-    // {
-    //   name: "Python",
-    //   icon: python,
-    // },
-    // {
-    //   name: "Solidity",
-    //   icon: solidity,
-    // },
-    // {
-    //   name: "Swift",
-    //   icon: swift,
-    // },
-    // {
-    //   name: "Vite JS",
-    //   icon: vitejs,
-    // },
-    // {
-    //   name: "Vue JS",
-    //   icon: vuejs,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
-    // { 
-    //   name: "Jest",
-    //   icon: jest,
-    // }
-  ];
+      category: "Others",
+      techs: [
+        {
+          name: "Android Studio",
+          icon: android,
+        },
+        {
+          name: "Postman",
+          icon: postman,
+        },
+        {
+          name: "Figma",
+          icon: figma,
+        },
+        {
+          name: "Visual Studio Code",
+          icon: vscode,
+        },
+        {
+          name: "IntelliJ IDEA",
+          icon: intellij,
+        },
+        {
+          name: "Xcode",
+          icon: Xcode,
+        }
+      ]
+    }
+  ]
   
   const experiences = [
     {
@@ -238,6 +304,14 @@ import {
       designation: "Senior Programmer Analyst",
       company: "Seneca Polytechnic",
       image: "",
+    },
+    {
+      testimonial:
+        "Toyosi is a very thorough and hardworking. I’ve had the pleasure to work with her and I will say she is a delight to work with. It was easy to work with her in groups, and she was always receptive to feedback. I admire her resolve and determination. She is devoted to producing high quality work that satisfies all requirements. She would be a lovely addition to any organization!",
+      name: "Nomai Emina",
+      designation: "Junior Safety Engineer",
+      company: "AtkinsRealis",
+      image: nomai,
     },
   ];
   
