@@ -10,34 +10,33 @@ import CanvasLoader from "../Loader";
 
 const TechCarousel = () => {
   const [openPanel, setOpenPanel] = useState(null);
-  return (
-    
-    <Canvas
-        className="w-full h-full flex flex-direction-row"
-        style={{overflow: "visible"}} 
-        frameloop='demand'
-        dpr={[1, 2]}
-        gl={{ preserveDrawingBuffer: true }}
-        camera={{ position: [0, 0, 10], fov: 40 }}
-    >
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[5, 5, 5]} />
-        <Suspense fallback={<CanvasLoader />}>
-            {/* <OrbitControls enableZoom={false} enablePan={false} /> */}
 
-            {/* Render each panel with its technologies */}
-            {technologies.map((category, index) => (
-                <Panel 
-                  key={index} 
-                  position={[index * 8 - 24, 0, 0]} 
-                  data={category} 
-                  isOpen={openPanel === index} // Check if the current panel is open
-                  onToggle={() => setOpenPanel(openPanel === index ? null : index)} 
-                />
-            ))}
-        </Suspense>
-        <Preload all />
-    </Canvas>
+  return (
+    <div className="w-full h-full flex flex-wrap justify-center items-center overflow-visible">
+      {technologies.map((category, index) => (
+        <div key={index} className="p-2">
+          <Canvas
+            style={{ width: "100%", height: "300px", overflow: "visible" }}
+            frameloop="demand"
+            dpr={[1, 2]}
+            gl={{ preserveDrawingBuffer: true }}
+            camera={{ position: [0, 0, 10], fov: 60 }}
+          >
+            <ambientLight intensity={0.5} />
+            <directionalLight position={[5, 5, 5]} />
+            <Suspense fallback={<CanvasLoader />}>
+              <OrbitControls autoRotate enableZoom={false} enablePan={false} enableRotate={false} />
+              <Panel 
+                data={category} 
+                isOpen={openPanel === index} 
+                onToggle={() => setOpenPanel(openPanel === index ? null : index)} 
+              />
+            </Suspense>
+            <Preload all />
+          </Canvas>
+        </div>
+      ))}
+    </div>
   );
 };
 

@@ -60,6 +60,10 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -138,10 +142,6 @@ import {
           icon: vuejs,
         },
         {
-          name: "Node JS",
-          icon: nodejs,
-        },
-        {
           name: "Express JS",
           icon: express,
         },
@@ -205,13 +205,14 @@ import {
           icon: linux,
         },
         {
+          name: "Figma",
+          icon: figma,
+        },
+        {
           name: "PowerShell",
           icon: powershell,
         },
-        {
-          name: "\u00A0\u00A0Jest\u00A0\u00A0",
-          icon: jest,
-        },
+       
       ]
     },
     {
@@ -228,7 +229,11 @@ import {
         {
           name: "Bootstrap",
           icon: bootstrap,
-        }
+        },
+        {
+          name: "\u00A0\u00A0Jest\u00A0\u00A0",
+          icon: jest,
+        },
       ]
     },
     {
@@ -243,11 +248,12 @@ import {
           icon: postman,
         },
         {
-          name: "Figma",
-          icon: figma,
+          name: "Node JS",
+          icon: nodejs,
         },
+       
         {
-          name: "Visual Studio Code",
+          name: "VS Code",
           icon: vscode,
         },
         {

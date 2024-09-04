@@ -3,10 +3,10 @@ import {TechCarousel} from "./canvas";
 
 const Tech = () => {
   return (
-    <div className="flex justify-center items-center min-h-[600px] p-5 w-full h-full">
+    <div className="flex flex-row flex-wrap justify-center gap-10">
       <TechCarousel />
     </div>
   );
 };
 
-export default Tech;
+export default SectionWrapper(Tech, "");
