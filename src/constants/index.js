@@ -526,6 +526,65 @@ import {
       source_code_link: "https://github.com/okuti2/LibraryApp",
     },
   ];
+
+  const technologies2 = [
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Azure",
+      icon: azure,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name:"Angular",
+      icon: angular,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Ionic",
+      icon: ionic,
+    },
+    
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    
+  ];
+
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, technologies2 };
   
+
