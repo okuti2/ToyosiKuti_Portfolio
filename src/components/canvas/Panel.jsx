@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 import { useFrame } from "@react-three/fiber";
-import { Html, OrbitControls, PerspectiveCamera, Cylinder } from "@react-three/drei";
+import { Html, OrbitControls, Cylinder } from "@react-three/drei";
 import { useState, useRef, useMemo } from "react";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
@@ -83,13 +83,10 @@ TextRing.propTypes = {
 // Main component rendering the TextRing and stacked cards
 const Scene = ({ data, isOpen, onToggle }) => {
   const groupRef = useRef();
-  const cameraRef = useRef();
   const [, setHoveredIndex] = useState(null);
 
   return (
     <group ref={groupRef}>
-      {/* Independent Camera for Each Panel */}
-      <PerspectiveCamera ref={cameraRef} makeDefault={false} position={[0, 0, 10]} fov={50} />
 
       <TextRing text={data.category} position={[0,-2,0]} colorBack={'bg-primary'} />
 

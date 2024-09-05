@@ -533,24 +533,8 @@ import {
       icon: aws,
     },
     {
-      name: "C",
-      icon: c,
-    },
-    {
-      name: "C++",
-      icon: cpp,
-    },
-    {
-      name: "Azure",
-      icon: azure,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name:"Angular",
-      icon: angular,
     },
     {
       name: "TypeScript",
@@ -569,18 +553,37 @@ import {
       icon: nodejs,
     },
     {
-      name: "Ionic",
-      icon: ionic,
-    },
-    
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "Express JS",
+      icon: express,
     },
     {
-      name: "Java",
-      icon: java,
+      name: "MongoDB",
+      icon: mongodb,
     },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name : "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "Git",
+      icon: git,
+    },
+    {
+      name: "GitHub",
+      icon: github2,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Linux",
+      icon: linux,
+    }
     
   ];
 
