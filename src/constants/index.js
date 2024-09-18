@@ -357,6 +357,7 @@ import {
         }
       ],
       image: portfolio,
+      youtube_link: "https://youtu.be/GRFFJqGn2V0",
       source_code_link: "https://github.com/okuti2/ToyosiKuti_Portfolio",
     },
     {
@@ -378,6 +379,7 @@ import {
         }
       ],
       image: CountryExplorer,
+      youtube_link: "https://youtu.be/GRFFJqGn2V0",
       source_code_link: "https://github.com/okuti2/CountryExplorer",
     },
     {
@@ -424,6 +426,7 @@ import {
       ],
       image: fragments,
       source_code_link: "https://github.com/okuti2/fragments",
+      youtube_link: "https://youtu.be/GRFFJqGn2V0",
     },
     {
       name: "IntelliCycles",
@@ -464,6 +467,7 @@ import {
         }
       ],
       image: intellicycles,
+      youtube_link: "https://youtu.be/GRFFJqGn2V0",
       source_code_link: "https://github.com/yemregumus/IntelliCycles",
     },
     {
@@ -477,6 +481,7 @@ import {
         },
       ],
       image: assembly,
+      youtube_link: "https://youtu.be/GRFFJqGn2V0",
       source_code_link: "https://github.com/",
     },
     {
@@ -502,6 +507,7 @@ import {
         }
       ],
       image: Library,
+      youtube_link: "https://youtu.be/GRFFJqGn2V0",
       source_code_link: "https://github.com/okuti2/LibraryApp",
     },
     {
@@ -523,6 +529,7 @@ import {
         },
       ],
       image: ContactManager,
+      youtube_link: "https://youtu.be/GRFFJqGn2V0",
       source_code_link: "https://github.com/okuti2/LibraryApp",
     },
   ];
