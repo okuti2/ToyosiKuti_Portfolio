@@ -43,6 +43,6 @@ jobs:
             - name: Install dependencies and Run ESLint
               run: |
                 npm ci
-                npm run eslint
+                npm run lint
 
             

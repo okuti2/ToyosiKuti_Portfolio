@@ -385,7 +385,7 @@ import {
     {
       name: "Fragments Data Microservice",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "CRUD API for storing and converting data in different formats like app JSON, text and images. Includes CI/CD pipeline, Docker Compose and Jest and Hurl testing",
       tags: [
         {
           name: "Jest",
