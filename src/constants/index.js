@@ -481,8 +481,8 @@ import {
         },
       ],
       image: assembly,
-      youtube_link: "https://youtu.be/GRFFJqGn2V0",
-      source_code_link: "https://github.com/",
+      youtube_link: "",
+      source_code_link: "https://github.com/okuti2/OOP345-Works/tree/main/Project",
     },
     {
       name: "Library Mobile App",
